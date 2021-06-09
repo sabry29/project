@@ -1,0 +1,586 @@
+body {
+  font-family: "roboto", sans-serif;
+  background-image: url(/ress/schrecksee-2534484_1920.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.title {
+  position: absolute;
+  top: 19%;
+  right: 3.6%;
+  color: black;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.logo {
+  position: absolute;
+  right: 4%;
+  top: 8%;
+  height: 80px;
+  cursor: pointer;
+}
+
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+
+/*Menu*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.menu {
+  background: rgb(0, 100, 0);
+  height: 60px;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  color: #fff;
+}
+
+.menu ul li {
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+.active,
+.menu ul li:hover {
+  background: #2bab0d;
+  border-radius: 3px;
+}
+
+.sub-menu-1 {
+  display: none;
+}
+
+.menu ul li:hover .sub-menu-1 {
+  display: block;
+  position: absolute;
+  background: rgb(0, 100, 0);
+  margin-top: 10px;
+  margin-left: -15px;
+}
+
+.menu ul li:hover .sub-menu-1 ul {
+  display: block;
+  margin: 10px;
+}
+
+.menu ul li:hover .sub-menu-1 ul li {
+  width: 150px;
+  padding: 10px;
+  border-bottom: 1px dotted #fff;
+  background: transparent;
+  border-radius: 0;
+  text-align: left;
+}
+
+.menu ul li:hover .sub-menu-1 ul li:last-child {
+  border-bottom: none;
+}
+
+.menu ul li:hover .sub-menu-1 ul li a:hover {
+  color: #b2ff00;
+}
+
+/*image*/
+.menu-img {
+  width: 1520px;
+  height: auto;
+}
+
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+
+/*home message*/
+.enc-mess {
+  text-align: center;
+  position: relative;
+  top: 175px;
+  font-family: serif;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: bolder;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.home-mess {
+  height: 350px;
+  margin: 100px;
+  position: relative;
+  top: 330px;
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.hello-mess,
+.team-mess {
+  font-weight: bold;
+  margin: 25px;
+}
+
+.team-mess {
+  text-decoration: underline;
+}
+.mess {
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.under-mess {
+  padding: 10px;
+}
+
+.barre-end {
+  background: rgb(0, 100, 0);
+  height: 30px;
+  width: border;
+}
+
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+/*..........................................................*/
+/*under menu*/
+
+.under-menu {
+  margin: 50px;
+  position: relative;
+  top: 350px;
+}
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+}
+
+/****************/
+.main-container {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+.main-container > h2 {
+  text-align: center;
+  padding: 10px 0;
+  font-size: 32px;
+}
+.main-container > p {
+  font-weight: 300;
+  padding: 10px 0;
+  opacity: 0.7;
+  text-align: center;
+}
+.category-head {
+  margin: 30px 0;
+}
+.category-head ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+.category-title {
+  flex: 0 0 calc(16.6667% - 10px);
+  display: flex;
+  justify-content: center;
+  background: #a8a8a8;
+  padding: 12px;
+  color: #fff;
+  margin: 5px;
+  cursor: pointer;
+  transition: all 0.4s ease;
+}
+.category-title:hover {
+  opacity: 0.7;
+}
+.category-title li {
+  padding: 0 10px;
+}
+.category-title span {
+  color: #222;
+}
+
+/** single post **/
+.posts-main-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+}
+.posts-main-container > div {
+  box-shadow: 0px 8px 22px -12px rgba(0, 0, 0, 0.64);
+}
+.post-img {
+  position: relative;
+}
+.category-name {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  text-transform: uppercase;
+  font-size: 13px;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 2px;
+}
+.Cycling .category-name {
+  background: #00a7ea;
+}
+.Camping .category-name {
+  background: #f03250;
+}
+.Hiking .category-name {
+  background: #f0544f;
+}
+.Climbing .category-name {
+  background: #2c2a4a;
+}
+.Running .category-name {
+  background: #a1e44d;
+}
+
+.post-content {
+  padding: 25px;
+}
+.post-content-top {
+  background: #80ced7;
+  color: #fff;
+  opacity: 0.8;
+  padding: 5px 0 5px 15px;
+}
+.post-content-top span {
+  padding-right: 20px;
+}
+.post-content-top .fa-comment,
+.post-content-top .fa-calendar {
+  padding-right: 5px;
+}
+.post-content h2 {
+  font-size: 22px;
+  padding: 12px 0;
+  font-weight: 400;
+}
+.post-content p {
+  opacity: 0.7;
+  font-size: 15px;
+  line-height: 1.8;
+}
+.read-btn {
+  border: none;
+  padding: 8px 15px;
+  display: block;
+  margin: 5px auto;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  cursor: pointer;
+  border: 1px solid #292929;
+  background: transparent;
+  margin-bottom: 40px;
+}
+
+.read-btn:hover {
+  background: #f6f6f6;
+}
+
+/***************/
+@media (max-width: 1170px) {
+  .posts-main-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 768px) {
+  .posts-main-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+/***********/
+
+.active {
+  background: #f0544f;
+}
+
+/***********************************************************************************************************/
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Metal+Mania");
+
+@font-face {
+  font-family: "Booter - Zero Zero";
+  src: url("Fonts/Booter - Zero Zero.woff") format("woff"),
+    url("Fonts/Booter - Zero Zero.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.band-name {
+  text-align: center;
+  margin: 0;
+  font-size: 4em;
+  font-family: "Booter - Zero Zero";
+  font-weight: normal;
+  color: white;
+}
+
+.band-name-large {
+  font-size: 8em;
+}
+
+.content-section {
+  margin: 1em;
+}
+
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 0 1.5em;
+}
+.section-header {
+  font-family: "Metal Mania";
+  font-weight: normal;
+  color: #333;
+  text-align: center;
+  font-size: 2.5em;
+}
+
+.about-band-image {
+  float: left;
+  height: 200px;
+  width: 200px;
+  margin: 15px;
+  border-radius: 50%;
+}
+
+.btn {
+  text-align: center;
+  vertical-align: middle;
+  padding: 0.67em 0.67em;
+  cursor: pointer;
+}
+
+.btn-header {
+  margin: 0.5em 15% 2em 15%;
+  color: white;
+  border: 2px solid #2d9cdb;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0;
+  font-size: 1.5em;
+  font-weight: lighter;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.btn-header:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn-play {
+  display: block;
+  margin: 0 auto;
+  color: #2d9cdb;
+  font-size: 4em;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  padding: 0;
+  text-align: center;
+}
+
+.btn-primary {
+  color: white;
+  background-color: #56ccf2;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.btn-primary:hover {
+  background-color: #2d9cdb;
+}
+
+.tour-row {
+  border-bottom: 1px solid black;
+  padding-bottom: 1em;
+  margin-bottom: 1em;
+}
+
+.tour-row:last-child {
+  border: none;
+}
+
+.tour-item {
+  display: inline-block;
+  padding-right: 0.5em;
+}
+
+.tour-date {
+  color: #555;
+  width: 11%;
+  font-weight: bold;
+}
+
+.tour-city {
+  width: 24%;
+}
+
+.tour-arena {
+  width: 42%;
+}
+
+.tour-btn {
+  max-width: 19%;
+}
+
+.shop-item {
+  margin: 30px;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5em;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.shop-item-image {
+  height: 250px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.cart-column {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid black;
+  margin-right: 1.5em;
+  padding-bottom: 10px;
+  margin-top: 10px;
+}
+
+.cart-row {
+  display: flex;
+}
+
+.cart-item {
+  width: 45%;
+}
+
+.cart-price {
+  width: 20%;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.cart-quantity {
+  width: 35%;
+}
+
+.cart-item-title {
+  color: #333;
+  margin-left: 0.5em;
+  font-size: 1.2em;
+}
+
+.cart-item-image {
+  width: 75px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.btn-danger {
+  color: white;
+  background-color: #eb5757;
+  border: none;
+  border-radius: 0.3em;
+  font-weight: bold;
+}
+
+.btn-danger:hover {
+  background-color: #cc4c4c;
+}
+
+.cart-quantity-input {
+  height: 34px;
+  width: 50px;
+  border-radius: 5px;
+  border: 1px solid #56ccf2;
+  background-color: #eee;
+  color: #333;
+  padding: 0;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 25px;
+}
+
+.cart-row:last-child {
+  border-bottom: 1px solid black;
+}
+
+.cart-row:last-child .cart-column {
+  border: none;
+}
+
+.cart-total {
+  text-align: end;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.cart-total-title {
+  font-weight: bold;
+  font-size: 1.5em;
+  color: black;
+  margin-right: 20px;
+}
+
+.cart-total-price {
+  color: #333;
+  font-size: 1.1em;
+}
+
+.btn-purchase {
+  display: block;
+  margin: 40px auto 80px auto;
+  font-size: 1.75em;
+}
